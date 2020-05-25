@@ -1,0 +1,111 @@
+body {
+background: #000000;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+.intro{
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1{
+color: #ffffff;
+text-transform: uppercase;
+font-weight: 800;
+}
+
+p{
+    font-weight: 600;
+}
+
+#first{
+    margin-top: 10px;
+    color: #FFFFFF
+}
+
+#second{
+    margin-bottom: 30px;
+}
+
+#enter{
+    border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: lightgrey;
+	background-color: grey;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+background-color: white;
+color: lightblue;
+}
+
+#edit{
+    color: red;
+}
+
+ul{
+    text-align: left;
+    margin-top: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 20px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 4px solid darkgrey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: lightgrey;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+li:hover{
+    background: white;
+    
+}
+
+li > button{
+    padding-right: 5px;
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: black;
+    font-weight: 800;
+}
+
+input{
+    border-radius: 5px;
+    min-width: 65%;
+    padding: 5px;
+    border: none;
+}
+#edit{
+    background: lightgrey !important;
+}
+
+.done{
+    background: lightgreen !important;
+    
+}
+
+.delete{
+    display: none;
+}
+
+
+
